@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="StartRecording" />
+
+    <Button
+        android:id="@+id/killButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Force Quit" />
+    <Button 
+        android:id="@+id/setIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "setIP"/>
+    
+    <EditText
+        android:id="@+id/editInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:inputType="textShortMessage|textAutoCorrect|textCapSentences|textMultiLine"
+        android:maxLength="30"
+        android:maxLines="1"
+        android:text="put IP address of target here" />
+
+</LinearLayout>
